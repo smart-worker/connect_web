@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Manrope', sans-serif;
+}
+
+#navbarNav{
+    height: 10vh;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+
+    color: black;
+
+}
+
+.nav-item{
+    padding-right: 5%;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 130px;
+
+}
+
+.left{
+
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    left: 40px;
+}
+.right{
+
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    right: 40px;
+}
+.logo_img{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.middle_image{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 1.5rem;
+
+}

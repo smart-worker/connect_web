@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(./fonts/iosevka-term-ss12-light.ttf);
+    font-family: iskova light;
+}
+@font-face {
+    src: url(./fonts/IOSEVKA-TERM-SS12-LIGHTITALIC.TTF);
+    font-family: iskova light italic;
+}
+@font-face {
+    src: url(./fonts/IOSEVKA-TERM-SS12-REGULAR.TTF);
+    font-family: iskova regular;
+}
+@font-face {
+    src: url(./fonts/Gilroy-Light.otf);
+    font-family: glory light;
+}
+@font-face {
+    src: url(./fonts/Gilroy-ExtraBold.otf);
+    font-family: glory bold;
+}
+body {
+    background: #fffefa;
+    background-repeat: no-repeat;
+    color: #2e2e2e;
+}
+nav {
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+.logo {
+    font-family: 'glory bold';
+}
+ul {
+    display: flex;
+    font-size: 18px;
+    font-family: 'glory light';
+}
+li {
+    list-style: none;
+    padding: 0px 20px;
+}
+li a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.active {
+    color: #929292;
+    border-bottom: 1px solid #929292;
+}
+#download span {
+    color: #fff;
+    background: #000;
+    padding: 0px 3px;
+}
+.img {
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(5%, 10%);
+    z-index: -1;
+    width: 350px;
+    height: 470px;
+    background: transparent;
+    overflow: hidden;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.img2 {
+    display: block;
+    position: absolute;
+    top: 16%;
+    left: 0%;
+    transform: translate(5%, 5%);
+    z-index: -1;
+    width: 350px;
+    height: 470px;
+    background: transparent;
+}
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section {
+    font-family: 'glory light';
+    text-align: center;
+    margin: 100px;
+    letter-spacing: 3px;
+}
+section h3 {
+    margin: 0px 310px;
+    font-size: 26px;
+    font-weight: 200;
+    letter-spacing: 1.3px;
+    line-height: 140%;
+    font-family: 'glory light';
+}
+section h1 {
+    margin: 30px 0px;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 1.6em;
+}
+section a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #2e2e2e;
+    border: 2.3px solid #000;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
